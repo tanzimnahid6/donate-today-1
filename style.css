@@ -84,11 +84,20 @@
     margin: auto;
     display: flex;
     justify-content: space-evenly;
+    
+    
 }
 .tk{
     padding: 20px 25px;
     font-size: 20px;
     border-radius: 2px; 
+    border-radius: 5px;
+    cursor: pointer;
+    
+    
+}
+.tk:hover{
+    border: 2px solid #fb8332 ;   
 }
 
 .custom-amount{
@@ -98,10 +107,7 @@
     margin-top: 50px;
     margin-bottom: 50px;   
 }
-.border{
-    border: 2px solid #fb8332 ;
-    border-radius: 5px;
-}
+
 .custom-amount input{
     padding: 15px 5px;
     border: 1px soldi rgb(224, 219, 219);
